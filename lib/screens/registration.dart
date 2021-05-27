@@ -82,7 +82,7 @@ class _RegistrationState extends State<Registration> {
                 borderSide: BorderSide(),
               ),
             ),
-            initialCountryCode: 'CM',
+            // initialCountryCode: 'CM',
             onChanged: (phone) {
               print('Complete phone number: ' + phone.completeNumber);
               _countryCode = phone.countryISOCode!;
